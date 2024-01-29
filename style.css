@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.centrar-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    height: 100vh;
+    background: url(/img/fondoreloj.jpeg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.contendor-principal{
+    background-color: #fff;
+    border-radius: 30px;
+    border:2px solid #000;
+    width: 50vw;
+    height: 200px;
+    text-align: center;
+}
+#cronometro{
+    font-family:'Noto Sans Thai', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+}
+.boton{
+    width: 70px;
+    height: 70px;
+    font-size: 50px;
+    margin: 10px;
+}
+#inicio-pausa.iniciar{
+    background-color: green;
+}
+#inicio-pausa.pausar{
+    background-color: yellowgreen;
+}
+
+#reinicio{
+    background-color: rgb(223, 19, 19);
+}
+
